@@ -1,0 +1,231 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.829);
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #313131;
+}
+
+a img{
+  width: 40px;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.829);
+  text-decoration: none;
+}
+a:hover{
+ text-decoration: underline;
+}
+
+.NavBar{
+  background-color: #242424;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+
+  /* padding: 1% 1%; */
+  font-size: 15px;
+
+
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.marca h2{
+  margin: 0;
+}
+.input{
+  align-self: center;
+  padding: 5px 3px;
+  background-color: #444444;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 350px;
+  position: fixed;
+  left: 14%;
+  right: 10%;
+  filter: opacity(0.5);
+  /* top: 0; */
+}
+.buscador{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+button{
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 6px;
+  padding: 0 6px;
+  background-color: #313131;
+  border: none;
+  color: rgba(255, 255, 255, 0.829);
+}
+button:hover{
+  background-color: #242424;
+  transition: 0.3s;
+}
+.search{
+  width: 70%;
+  max-width: 350px;
+  padding: 3% 2%;
+  border-radius: 10px;
+  border: none;
+  display: block;
+  outline: none;
+  background-color: #444444;
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.search:focus{
+  background-color: #585858;
+}
+.git{
+  min-width: 61px;
+}
+.info{
+  padding: 20px 5px;
+  width: 80%;
+  background-color: #242424;
+  height: 300px;
+  margin: 150px auto;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: solid rgba(255, 255, 255, 0.829) 2px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.info h1{
+  font-size: 1em;
+}
+
+.info p{
+  margin: 0 10px;
+  font-size: 0.7em;
+}
+
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  gap: 50px;
+  margin: 0 auto;
+}
+.card{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border: solid rgba(255, 255, 255, 0.829) 2px;
+  background-color: #242424;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card img{
+  max-height: 400px;
+  width: 90%;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+.card h3{
+  max-height: 400px;
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+h4{
+  margin: 5px 0;
+}
+
+.decription-padre{
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #242424;
+  border-radius: 0 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border: solid rgba(255, 255, 255, 0.829) 2px;
+}
+.description-img img{
+  width: 100%;
+  display: block;
+  margin: auto
+}
+.home{
+  text-align: end;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 95%;
+}
+.home button{
+  padding: 5px;
+}
+.description{
+  width: 100%;
+}
+.description p{
+  text-align: center;
+  margin: 20px auto;
+  width: 90%;
+}
+.description h2{
+  width: 90%;
+  margin: 20px auto;
+}
+.description h3{
+  width: 90%;
+  margin: 20px auto;
+}
+.mas{
+  padding: 10px;
+  font-size: 1em;
+  margin: 30px;
+}
+.spinner {
+  border: 4px solid rgba(102, 102, 102, 0.274);
+  border-left-color: transparent;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+  border-radius: 100%;
+  
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.proyecto{
+  width: 80%;
+  margin: 0 auto;
+}
+.proyecto p{
+  margin-bottom: 15px;
+}

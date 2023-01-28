@@ -1,0 +1,76 @@
+
+
+@media (min-width: 500px) {
+    .NavBar{
+        gap: 20px;
+        height: 100px;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 16px;
+
+        position: fixed;
+        top: 0;
+        transition: 0.3s;
+    }
+    .navbarS{
+        height: 75px;
+        transition: 0.3s;
+    }
+    .input{
+        filter: opacity(1);
+        position: static;
+    }
+    .info{
+        width: 67%;
+    }
+    .info h1{
+        font-size: 1.8em;
+    }
+    .info p{
+        font-size: 1em;
+    }
+    .cards{
+        width: 64%;
+    }
+
+}
+@media (min-width: 600px) {
+    .decription-padre{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 0 10px 10px 0;
+        /* gap: 20px; */
+    }
+    .description-img {
+        width: 100%;
+    }
+    .description-img img{
+        width: 100%;
+    }
+
+    .description h2{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 700px) {
+    .cards{
+        width: 50%;
+    }
+}
+@media (min-width: 970px) {
+    .home{
+
+    }
+    .decription-padre{
+        width: 70%;
+    }
+    .cards{
+        flex-direction: row;
+        width: 80%;
+    }
+    .card{
+        width: 40%;
+    }
+}
